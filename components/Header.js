@@ -14,7 +14,7 @@ import HeaderItem from './HeaderItem';
 const Header = () => {
   return (
     <header>
-      <div className='container'>
+      <div className='max-container'>
         <div className='flex flex-col sm:flex-row justify-between'>
           <div className='header-items-container flex flex-grow mx-auto sm:mx-0 mt-3 overflow-hidden'>
             <HeaderItem

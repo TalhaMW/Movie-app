@@ -14,7 +14,7 @@ const Nav = () => {
       return (
         <Link
           key={elem.title}
-          href={`${elem.key}`}
+          href={`/${elem.key}`}
         >
           <h2 className='visited:text-green-400 transform mx-4 sm:mx-8 hover:scale-125 whitespace-nowrap hover:text-white cursor-pointer transition-all duration-700 ease-out active:text-green-400 '>
             {elem.value.title}

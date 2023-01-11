@@ -6,11 +6,23 @@
   body {
     @apply bg-[#06202a] text-gray-300;
   }
+  .max-container {
+    /* background-color: red; */
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  .max-width-description {
+    max-width: 600px;
+  }
   .movie-grid {
     display: grid;
-    grid-template-columns: repeat(6, 1fr);
+    grid-template-columns: repeat(5, 1fr);
 
     gap: 15px;
+  }
+  .movie-stats {
+    margin-left: 1rem;
+    color: white;
   }
   @media screen and (max-width: 1025px) {
     .movie-grid {
