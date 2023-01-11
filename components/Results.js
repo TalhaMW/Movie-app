@@ -15,6 +15,7 @@ const Results = ({ data, heading }) => {
       <FlipMove className='movie-grid '>
         {data?.results?.map((data) => (
           <Moviecard
+            key={data.id}
             title={data.original_name ? data.original_name : data.title}
             description={data.overview}
             imgUrl={data.poster_path}
